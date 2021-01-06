@@ -8,7 +8,7 @@ const port = process.env.PORT || 4000
 
 const mongoose = require('mongoose');
 // connecting to the database
-mongoose.connect('mongodb+srv://userone:userone@shilib2.dlg5n.mongodb.net/LIBRARYAPP?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex : true, useFindAndModify: false });
+mongoose.connect('mongodb+srv://userone:userone@shilib2.dlg5n.mongodb.net/SHILIBANGULAR?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex : true, useFindAndModify: false });
 
 const signupdata = require('./src/model/userdata')
 
